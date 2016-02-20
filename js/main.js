@@ -1,4 +1,4 @@
-var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, '');
+var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.CANVAS, '');
 
 game.state.add('Boot', ZenvaRunner.Boot);
 game.state.add('Preloader', ZenvaRunner.Preload);
